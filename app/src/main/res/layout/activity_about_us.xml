@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_background"
+    tools:context=".AboutUs">
+
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="500dp"
+        android:text="About Us"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Said ARSLAN"
+        android:textSize="24sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="300dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="54dp"
+        android:text="Developers:"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="238dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="All rights are reserved."
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginBottom="140dp"
+        android:gravity="center"
+        android:text="@string/date"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Berk Han TUGRUL"
+        android:textSize="24sp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="300dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="12dp"
+        android:text="@string/dept_str"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="0dp"
+        android:text="@string/course"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_gravity="start">
+
+        <include
+            layout="@layout/drawer_menu"/>
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

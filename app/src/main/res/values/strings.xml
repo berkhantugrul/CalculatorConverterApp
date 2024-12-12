@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Calculator and Converter</string>
+    
+    <string-array name="temp1_list">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Rankin</item>
+    </string-array>
+
+    <string-array name="temp2_list">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Rankine</item>
+    </string-array>
+
+    <string-array name="length1_list">
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>dam</item>
+        <item>hm</item>
+        <item>km</item>
+        <item>yard</item>
+        <item>feet</item>
+        <item>mile</item>
+        <item>seamile</item>
+        <item>inch</item>
+        <item>lightyear</item>
+        <item>AU</item>
+    </string-array>
+
+    <string-array name="length2_list">
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>dam</item>
+        <item>hm</item>
+        <item>km</item>
+        <item>yard</item>
+        <item>feet</item>
+        <item>mile</item>
+        <item>seamile</item>
+        <item>inch</item>
+        <item>lightyear</item>
+        <item>AU</item>
+    </string-array>
+
+    <string-array name="mass1_list">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>ton</item>
+        <item>ons</item>
+        <item>pound</item>
+        <item>karat</item>
+        <item>okka</item>
+    </string-array>
+
+    <string-array name="mass2_list">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>ton</item>
+        <item>ons</item>
+        <item>pound</item>
+        <item>karat</item>
+        <item>okka</item>
+    </string-array>
+
+    <string-array name="volume1_list">
+        <item>mm3</item>
+        <item>cm3</item>
+        <item>dm3</item>
+        <item>m3</item>
+        <item>litre</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>gallon</item>
+    </string-array>
+
+    <string-array name="volume2_list">
+        <item>mm3</item>
+        <item>cm3</item>
+        <item>dm3</item>
+        <item>m3</item>
+        <item>litre</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>gallon</item>
+    </string-array>
+
+    <string-array name="numeric1_list">
+        <item>decimal</item>
+        <item>binary</item>
+        <item>octal</item>
+        <item>hexadecimal</item>
+    </string-array>
+
+    <string-array name="numeric2_list">
+        <item>decimal</item>
+        <item>binary</item>
+        <item>octal</item>
+        <item>hexadecimal</item>
+    </string-array>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+
+    <string name="divide">/</string>
+    <string name="product">X</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="equal">=</string>
+    <string name="ac">AC</string>
+    <string name="c">C</string>
+    <string name="exp">x^y</string>
+    <string name="mod">%</string>
+    <string name="dot">.</string>
+    <string name="back">&lt;&lt;</string>
+
+
+    <string name="dept_str">
+        Ankara University Computer Engineering Dept.
+    </string>
+
+    <string name="rights">
+        All rights are reserved.
+    </string>
+
+   <string name="said">
+       Said ARSLAN
+   </string>
+
+    <string name="maverick">
+        Berk Han TUGRUL
+    </string>
+
+    <string name="course">
+        COM2044 Object Oriented Programming - Project II
+    </string>
+
+    <string name="date">
+        Develeoped in May, 2023.
+    </string>
+
+</resources>
